@@ -30,4 +30,11 @@ fn main() {
    // fmt::Display.
    // println!("This struct `{}` won't print...", Structure(3));
    // TODO ^ Try uncommenting this line
+
+   let number: f64 = 1.0;
+   let width: usize = 5;
+   println!("{number:>width$}");
+
+   let pi = 3.141592;
+   println!("Pi is roughly {pi:.2}");
 }
